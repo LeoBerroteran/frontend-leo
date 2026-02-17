@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      #resaltado {
+        color: blue;
+        font-weight: bold;
+      }
+      .destacado {
+        color: green;
+        font-style: italic;
+      }
+      span {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- CSS In line -->
+    <h1 style="color: red">Hola Mundo</h1>
+    <!-- CSS In Block-->
+    <!--
+      ID: Es un identificador unico para un elemento, se representa con #
+      Class: Es una clase que se puede compartir entre varios elementos, se representa con .
+    -->
+    <p id="resaltado">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed minus
+      voluptatibus ab vitae facere eaque nobis ipsum provident accusantium,
+      quasi necessitatibus culpa. Dolorem quos ipsam deserunt molestiae a alias
+      ea!
+    </p>
+    <!-- p.destacado{Somos clasistas}*3 -->
+    <p id="resaltado" class="destacado">Somos <span>muy</span> clasistas</p>
+    <p class="destacado">Somos <span>extremadamente</span> clasistas</p>
+    <p class="destacado">Somos <span>extremadamente</span> clasistas</p>
+    <a href="#" class="destacado">
+      Soy un link <span>extremadamente</span> clasista
+    </a>
+    <button class="boton-destacado">
+      Soy un boton destacado
+    </button>
+  </body>
+</html>
+
+
