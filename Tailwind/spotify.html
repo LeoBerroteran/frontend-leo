@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-black text-gray-400 grid grid-rows-[70px_auto_70px] min-h-screen">
+    <nav class="flex justify-between items-center px-4 py-2">
+      <div class="flex items-center gap-4">
+        <p>Logo</p>
+        <button class="bg-gray-600 text-gray-400 rounded-full p-2">Home</button>
+        <div
+          class="hidden xl:flex items-center gap-2 bg-gray-600 text-gray-400 rounded-full p-2"
+        >
+          <button>Search</button>
+          <input type="text" placeholder="¿Qué quieres reproducir?" />
+          <p>|</p>
+          <button>Biblioteca</button>
+        </div>
+      </div>
+      <div class="flex items-center gap-4 font-semibold">
+        <div class="flex items-center gap-2">
+          <p>Premium</p>
+          <p>Asistencia</p>
+          <p>Descargar</p>
+        </div>
+        <p class="hidden lg:flex">|</p>
+        <p class="hidden lg:flex">Instalar app</p>
+        <p class="hidden lg:flex">Registrarte</p>
+        <button class="bg-white text-black px-4 py-2 rounded-full">Iniciar sesión</button>
+      </div>
+    </nav>
+    <div class="bg-red-600 min-h-[600px]"></div>
+    <div class="bg-yellow-600"></div>
+  </body>
+</html>

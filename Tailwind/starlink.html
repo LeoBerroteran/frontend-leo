@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starlink</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <nav class="flex justify-between items-center py-6 px-12 sticky top-0 bg-black/10 backdrop-blur-sm z-10">
+      <div class="flex items-center gap-4">
+        <img
+          src="https://starlink.com/assets/images/logo_white.png"
+          alt="Starlink Logo"
+          class="w-[120px] mr-12 cursor-pointer"
+        />
+        <p
+          class="hidden md:block cursor-pointer hover:font-bold transition-all duration-200"
+        >
+          RESIDENCIAL
+        </p>
+        <p
+          class="hidden md:block cursor-pointer hover:font-bold transition-all duration-200"
+        >
+          ITINERANTE
+        </p>
+      </div>
+      <div class="flex items-center gap-4">
+        <p
+          class="hidden md:block cursor-pointer hover:font-bold transition-all duration-200"
+        >
+          PERSONAL
+        </p>
+        <p class="hidden md:block">|</p>
+        <p
+          class="hidden md:block cursor-pointer hover:font-bold transition-all duration-200"
+        >
+          EMPRESAS
+        </p>
+        <i class="fa-solid fa-bars cursor-pointer"></i>
+      </div>
+    </nav>
+    <div
+      class="absolute top-0 right-0 w-full min-h-[70vh] -z-5 bg-gradient-to-b from-transparent from- via-transparent via- to-black to-100%"
+    ></div>
+    <div
+      class="bg-[url('https://starlink.com/public-files/home_b_hero_d.webp')] absolute top-0 right-0 w-full min-h-[70vh] object-cover -z-10 bg-right">
+    </div>
+    <section class="flex flex-col justify-center items-center gap-4 text-center px-8 min-h-[90vh]">
+      <h1 class="text-5xl md:text-6xl font-semibold">INTERNET DE ALTA VELOCIDAD</h1>
+      <h2 class="text-5xl md:text-6xl font-semibold">ESTABLE</h2>
+      <h2 class="text-5xl md:text-6xl font-semibold">DESDE EL ESPACIO</h2>
+      <div class="font-normal text-2xl text-center">
+        <p>Conectese en casa o en cualquier lugar</p>
+        <p>
+          Consulte las <span class="font-black">velocidades</span> en su pais
+        </p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12 mx-auto max-w-6xl text-left">
+        <div class="bg-white/10 p-8 rounded-lg border-white/20 border backdrop-blur-sm flex flex-col justify-center gap-2">
+          <h2 class="font-bold text-2xl">RESIDENCIAL</h2>
+          <p>Conexión en el hogar</p>
+          <p class="font-bold">Comience a continuación para consultar los planes y precios</p>
+          <div class="flex gap-4 mt-4">
+            <button class="bg-white text-black px-4 py-1 rounded-lg text-sm font-semibold">COMENZAR</button>
+            <button class="text-white border border-white px-4 py-1 rounded-lg text-sm font-semibold">MÁS INFORMACIÓN</button>
+          </div>
+        </div>
+        <div class="bg-white/10 p-8 rounded-lg border-white/20 border backdrop-blur-sm flex flex-col justify-center gap-2">
+          <h2 class="font-bold text-2xl">ITINERANTE</h2>
+          <p>Conéctese mientras viaja en más de 150 mercados</p>
+          <p class="font-bold">A partir de 40$/mes por el servicio</p>
+          <div class="flex gap-4 mt-4">
+            <button class="bg-white text-black px-4 py-1 rounded-lg text-sm font-semibold">COMENZAR</button>
+            <button class="text-white border border-white px-4 py-1 rounded-lg text-sm font-semibold">MÁS INFORMACIÓN</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="text-center flex flex-col justify-center items-center gap-4 py-20 px-8">
+      <h2 class="uppercase font-bold text-5xl">Conectividad rápida donde y cuando la necesite</h2>
+      <p class="uppercase text-md">Disponible en más de 150 países, territorios y otros mercados de todo el mundo</p>
+      <button class="font-semibold text-sm">CONSULTE LA DISPONIBILIDAD Y LOS PLANES EN SU ZONA</button>
+    </section>
+    <section class="px-8 py-16 bg-[url('https://starlink.com/public-files/home_b_reliability_d.webp')] min-h-[100vh] bg-cover bg-top-left flex flex-col items-end">
+      <div class="lg:max-w-[50%] flex flex-col gap-4">
+        <h2 class="font-bold text-5xl">ESTABLE Y RESISTENTE</h2>
+        <p class="text-md">Starlink ofrece internet de alta velocidad y baja latencia con un tiempo de actividad de más del <b>99,9%</b> y una conectividad estable alrededor del mundo. Diseñados para resistir las inclemencias del tiempo, los kits Starlink pueden derretir la nieve y soportar aguanieve, lluvias intensas y vientos fuertes. Más información <b>aquí</b>.</p>
+      </div>
+    </section>
+    <section class="px-8 py-16 bg-[url('https://starlink.com/public-files/home_b_speeds_d.webp')] min-h-[100vh] bg-cover bg-center flex flex-col items-start">
+      <div class="max-w-xl flex flex-col gap-4 text-left items-start">
+        <h2 class="flex flex-col justify-center font-bold text-5xl">Internet diseñado para cada necesidad</h2>
+        <p class="text-md">Starlink ofrece <b>velocidades de hasta 400 Mb/s o más</b> o más en la mayoría de los lugares del mundo, para que tenga la libertad de disfrutar streaming en 4K en varios dispositivos al mismo tiempo, trabajar de forma remota con eficiencia, jugar en línea, navegar por las redes sociales y mucho más.</p>
+        <p>Consulte las velocidades en su zona <b>aquí</b></p>
+      </div>
+    </section>
+    <section class="grid grid-cols-1 lg:grid-cols-2 p-8 gap-2">
+  <div class="flex justify-center items-center">
+    video
+  </div>
+  <div class="flex flex-col">
+    <h2 class="p-8 font-bold text-4xl">CONÉCTESE EN POCOS MINUTOS</h2>
+    <p class="px-8">Instale la antena Starlink en solo dos pasos. Las instrucciones pueden seguirse en cualquier orden:</p>
+    <div>
+      <h3 class="p-8 font-bold text-2xl">1 CONECTARLO</h3>
+    </div>
+    <div>
+      <h3 class="p-8 py-8 font-bold text-2xl">2 APUNTARLO AL CIELO</h3>
+    </div>
+    <p>Starlink requiere un cielo despejado y sin obstrucciones. Descargue la aplicación Starlink para determinar la mejor ubicación para</p>
+    <div>
+      <button class="px-6 cursor-pointer font-bold">Descargar para Android > </button>
+      <button class="py-6 cursor-pointer font-bold">Descargar para IOS ></button>
+    </div>
+  </div>
+</section>
+  </body>
+</html>
