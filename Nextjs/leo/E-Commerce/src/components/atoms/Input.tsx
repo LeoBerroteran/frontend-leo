@@ -1,7 +1,9 @@
 import React, { InputHTMLAttributes, forwardRef } from 'react';
 
-export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  error?: boolean;
+export interface FormFieldProps extends Omit<InputProps, 'error'> {
+  label: string;
+  error?: string | boolean;
+  required?: boolean;
 }
 
 export const Input = forwardRef<HTMLInputElement, InputProps>(({ className = '', error, ...props }, ref) => {
